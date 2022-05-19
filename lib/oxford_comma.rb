@@ -15,7 +15,6 @@ require 'pry'
 
 def oxford_comma(arr)
     return arr.join(" and ") if arr.length < 3
-
     arr[-1] = "and #{arr[-1]}"
     arr.join(", ")
 end
